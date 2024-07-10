@@ -462,6 +462,14 @@ nav a {
   order: 0;
   flex-grow: 0;
   margin: 0px 16px;
+
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .foot-btn {
@@ -486,6 +494,14 @@ nav a {
 
   background: rgb(255, 255, 255);
   border: none;
+
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .foot-main {
