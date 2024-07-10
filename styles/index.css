@@ -265,13 +265,23 @@
   text-align: center;
 
   opacity: 0.7;
+
+  position: static;
+  width: 1100px;
+  height: 52px;
 }
 
 .inspiration {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   margin: 88px 144px 48px 144px;
 
   /* width: 900px; */
 }
+
+/* .video {
+  display: block;
+} */
