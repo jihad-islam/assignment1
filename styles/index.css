@@ -244,3 +244,34 @@
 
   margin-bottom: 42px;
 }
+
+.inspiration-head {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.inspiration-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  opacity: 0.7;
+}
+
+.inspiration {
+  display: flex;
+  justify-content: center;
+
+  margin: 88px 144px 48px 144px;
+
+  /* width: 900px; */
+}
