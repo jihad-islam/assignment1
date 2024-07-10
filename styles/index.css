@@ -515,6 +515,8 @@ nav a {
 /* footer  */
 
 .footerbg {
+  display: flex;
+  justify-content: space-between;
   width: 1600px;
   height: 70px;
 
@@ -523,6 +525,8 @@ nav a {
   border-radius: 16px;
 
   background: rgba(13, 19, 33, 0.03);
+
+  margin: 0;
 }
 
 .social-icons {
@@ -537,4 +541,13 @@ nav a {
 .btnmain {
   text-decoration: none;
   cursor: pointer;
+}
+
+.jihad {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 10px;
 }
