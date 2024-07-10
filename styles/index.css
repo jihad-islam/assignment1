@@ -106,6 +106,7 @@
 }
 
 .second-page {
+  /* eta page er width ........................................... */
   max-width: 1400px;
   margin: 0 auto;
 
@@ -282,6 +283,38 @@
   /* width: 900px; */
 }
 
-/* .video {
-  display: block;
-} */
+.video {
+  /* width: 1076px; */
+  /* Frame 14 */
+  position: static;
+  width: 1600px;
+  height: 800px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 48px 0px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+
+  overflow: hidden;
+
+  /* border-radius: 16px; */
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove default iframe border */
+  border-radius: 16px; /* Added: Apply border-radius to iframe */
+}
